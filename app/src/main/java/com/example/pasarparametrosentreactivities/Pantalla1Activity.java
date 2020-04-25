@@ -31,7 +31,7 @@ public class Pantalla1Activity extends AppCompatActivity {
                 //navegarEntrePantallas.putExtra("USUARIO", edtUser.getText().toString());
 
                 Usuario miUsuario = new Usuario();
-                miUsuario.setEmail(edtUser.toString());
+                miUsuario.setEmail(edtUser.getText().toString());
 
                 //navegarEntrePantallas.putExtra("USUARIO", miUsuario);
                 SeasData.setUsuario(miUsuario);
